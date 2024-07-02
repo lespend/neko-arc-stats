@@ -1,6 +1,5 @@
 import Logo from "@/entities/Logo/ui/Logo";
 import MaxWrapper from "@/shared/ui/MaxWrapper";
-import { Card, CardContent, CardHeader, CardTitle } from "@/shared/ui/card";
 import TopPlayers from "@/features/TopPlayers/ui/TopPlayers";
 import OnlineChart from "@/entities/OnlineChart/ui/OnlineChart";
 import AppInfo from "@/entities/AppInfo/ui/AppInfo";
