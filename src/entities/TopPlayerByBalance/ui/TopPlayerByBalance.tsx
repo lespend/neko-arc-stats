@@ -8,8 +8,9 @@ const TopPlayerByBalance = () => {
 
     return (
         <Card>
-            <CardHeader>
+            <CardHeader className="space-y-2 pb-4">
                 <CardTitle>Топ игроков по балансу</CardTitle>
+                <p>В списке указаны id телеграм аккаунтов</p>
             </CardHeader>
             <CardContent className="text-xl">
                 <div className="animate-pulse space-y-4">

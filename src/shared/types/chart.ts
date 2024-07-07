@@ -1,4 +1,5 @@
 export interface OnlineChartData {
-    data: string;
+    date: string;
     online: number;
+    name?: string;
 }

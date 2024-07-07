@@ -10,7 +10,8 @@ export async function getOnlineChart() {
     const { data: res } = await api.get<OnlineChartData[]>("/stats/online-chart")
     if (res) {
         for (let i = 0; i < res.length; i++) {
-            res[i].data = getWeekDay(new Date(res[i].data))
+            let date = new Date(res[i].date)
+            res[i].name = getWeekDay(date)
         }
     }
     return res
